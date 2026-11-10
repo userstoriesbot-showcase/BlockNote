@@ -67,7 +67,7 @@ function Root() {
         {window.location.search.includes("hideMenu") ? undefined : (
           <AppShell.Navbar p="xs">
             <TextInput
-              placeholder="Search examples..."
+              placeholder="Search all examples..."
               value={searchQuery}
               onChange={(event) => setSearchQuery(event.currentTarget.value)}
               mb="md"
